@@ -1,0 +1,53 @@
+# Checkpoints
+runs/
+runs_*/
+*.pt
+*.pth
+*.ckpt
+
+# Data
+data/
+*.jsonl
+*.conllu
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+logs/
+*.log
+*.err
+*.out
+*.sbatch
+*.slurm
+
+# Figures
+figures/
+
+# Alignment targets (large)
+byte_alignment_targets*.pt
+
+# Old versions
+*_v1.py
+*_v2.py
+*_v3.py
+
+# OS
+.DS_Store
+*.swp
+*.png
+scripts/run_mt*.sh
+scripts/evaluate_mt*.py
+scripts/run_mt_encdec*.sh
+tasks/train_mt*.py
+tasks/train_mt_encdec*.py
+models/mt_decoder.py

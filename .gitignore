@@ -51,3 +51,8 @@ scripts/run_mt_encdec*.sh
 tasks/train_mt*.py
 tasks/train_mt_encdec*.py
 models/mt_decoder.py
+# Plot and visualization scripts
+scripts/plot_*.py
+scripts/visualize_*.py
+boundary_rate_CR_paper.py
+backbone_test.py
